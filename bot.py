@@ -4,7 +4,7 @@ from discord.utils import get
 import datetime
 import random
 
-TOKEN = 'NzExMDM2ODM0NDMxNjMxNDUw.Xr9PkA.rZERhdZknHe80kN0PklgMMUJIgM'
+TOKEN = TOKEN
 
 description = '''George's Personal Discord Bot'''
 bot = commands.Bot(command_prefix='--', description=description)
