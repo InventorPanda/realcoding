@@ -4,7 +4,7 @@ from discord.utils import get
 import datetime
 import random
 
-TOKEN = 'NzExMDM2ODM0NDMxNjMxNDUw.XsW02g.Yx1OwO1pSBNKKYIA9kA3Kl1U9zM'
+TOKEN = TOKEN
 
 description = '''George's Personal Discord Bot'''
 bot = commands.Bot(command_prefix='--', description=description)
@@ -107,6 +107,7 @@ async def yes_pings(ctx):
     await bot.add_roles(member, role)
     await bot.remove_roles(member, role3)
     await bot.remove_roles(member, role2)
+
 @bot.command()
 async def message_panda(ctx, message):
     await ctx.send("Messaging Pandaboy (George) through the power of Python")
