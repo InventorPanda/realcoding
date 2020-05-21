@@ -107,4 +107,9 @@ async def yes_pings(ctx):
     await bot.add_roles(member, role)
     await bot.remove_roles(member, role3)
     await bot.remove_roles(member, role2)
+
+@bot.command()
+async def message_panda(ctx, message):
+    await ctx.send("Messaging Pandaboy (George) through the power of Python")
+    print(message)
 bot.run(TOKEN)
